@@ -1,0 +1,60 @@
+body
+{
+    background-color: lightgray;
+    /* font-size: 15px; */
+    font-family: Inconsolata;
+}
+
+.title, .content, .footer 
+/* Einstellungen für alle Elemente gemeinsam */
+{
+    display: block;
+
+    background-color: rgba(100, 100, 200, .3);
+
+    /* margin-left: 250px; */
+    /* margin-right: 250px; */
+    /* margin-top: 50px; */
+    /* margin-bottom: 20px; */
+
+    margin: 10px auto;
+    width: 50%;
+    border: 1px gray solid;
+    padding: 10px;
+}
+
+.content
+{
+    font-size: 18px;
+    font-family: Inconsolata;
+    /* background-color: yellow; */
+    float: center;
+}
+
+/* .content > nav, .content > article */
+/* { */
+/*     float: left; */
+/* } */
+
+.content > .nav
+{
+    width: 20px;
+    float: left;
+}
+
+.content > .article
+{
+    float: right;
+    width: 50px;
+}
+
+.group:after
+{
+    clear: both;
+}
+
+.footer
+{
+    font-size: 8px;
+    font-family: Verdana;
+}
