@@ -1,0 +1,8 @@
+
+* Code for personal blog
+  Nothing special (yet) ... 
+
+** Icons
+
+The icons are from the IcoMoon icon set and are licensed as described at http://icomoon.io/#icons#license.
+

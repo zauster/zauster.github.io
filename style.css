@@ -23,12 +23,17 @@ body
     padding: 10px;
 }
 
+h1 {
+    text-align: center;
+}
+
 .content
 {
     font-size: 18px;
     font-family: Inconsolata;
     /* background-color: yellow; */
     float: center;
+    height: 130px;
 }
 
 /* .content > nav, .content > article */
@@ -36,25 +41,89 @@ body
 /*     float: left; */
 /* } */
 
-.content > .nav
-{
-    width: 20px;
-    float: left;
-}
+/* .content > .nav */
+/* { */
+/*     width: 20px; */
+/*     float: left; */
+/* } */
 
-.content > .article
-{
-    float: right;
-    width: 50px;
-}
+/* .content > .article */
+/* { */
+/*     float: right; */
+/*     width: 50px; */
+/* } */
 
-.group:after
-{
-    clear: both;
-}
+/* .group:after */
+/* { */
+/*     clear: both; */
+/* } */
 
 .footer
 {
     font-size: 8px;
     font-family: Verdana;
+}
+
+ul {
+    position: absolute;
+    top: 120px;
+    width: 780px;
+    height: 100px;    
+}
+
+li {
+    list-style-type: none;
+    float: left;
+    margin-left: 100px;
+    font-size: 72px;
+}
+
+.icon {
+    display: block;
+    padding: 5px 8px;
+    background: none; /* #e6effa; */
+    /* border: 1px solid #bdd0e8; */
+    /* border-radius: 5px; */
+    /* -moz-border-radius: 5px; */
+    /* -webkit-border-radius: 5px; */
+}
+
+.icon:hover {
+    background: none;
+}
+
+a.github:before {
+    content: url("icons/github3.png");
+    display: block;
+    float: left;
+    margin-right: 5px;
+    background: none;
+    /* height: 130px; */
+    /* width: 130px; */
+    /* position: relative; */
+    /* bottom: 2px; */
+}
+
+a.twitter:before {
+    content: url("icons/twitter3.png");
+    display: block;
+    float: left;
+    margin-right: 5px;
+    background: none;
+    /* height: 130px; */
+    /* width: 130px; */
+    /* position: relative; */
+    /* bottom: 2px; */
+}
+
+a.about:before {
+    content: url("icons/info2.png");
+    display: block;
+    float: left;
+    margin-right: 5px;
+    background: none;
+    /* height: 130px; */
+    /* width: 130px; */
+    /* position: relative; */
+    /* bottom: 2px; */
 }
